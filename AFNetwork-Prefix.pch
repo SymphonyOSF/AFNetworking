@@ -1,0 +1,14 @@
+//
+//  AFNetwork-Prefix.pch
+//  ios
+//
+//  Created by Raymond Walsh  on 2/3/16.
+//  Copyright © 2016 Perzo Inc. All rights reserved.
+//
+
+#ifndef AFNetwork_Prefix_pch
+#define AFNetwork_Prefix_pch
+
+#import "Pods-AFNetworking-prefix.h"
+
+#endif /* AFNetwork_Prefix_pch */

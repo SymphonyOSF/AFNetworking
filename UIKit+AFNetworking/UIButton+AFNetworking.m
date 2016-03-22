@@ -28,7 +28,7 @@
 #import "AFURLResponseSerialization.h"
 #import "AFHTTPRequestOperation.h"
 
-#import "UIImageView+AFNetworking.h"
+#import "AFNetworking.h"
 
 @interface UIButton (_AFNetworking)
 @end

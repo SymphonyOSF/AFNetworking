@@ -35,6 +35,17 @@
     #import "AFHTTPRequestOperation.h"
     #import "AFHTTPRequestOperationManager.h"
     #import "UIKit+AFNetworking.h"
+
+#import "AFNetworkActivityIndicatorManager.h"
+
+#import "UIActivityIndicatorView+AFNetworking.h"
+#import "UIAlertView+AFNetworking.h"
+#import "UIButton+AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
+#import "UIProgressView+AFNetworking.h"
+#import "UIRefreshControl+AFNetworking.h"
+#import "UIWebView+AFNetworking.h"
+
 #endif
 
 #if ( ( defined(__MAC_OS_X_VERSION_MAX_ALLOWED) && __MAC_OS_X_VERSION_MAX_ALLOWED >= 1090) || \

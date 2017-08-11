@@ -79,6 +79,10 @@ static NSError * AFNetworkErrorFromNotification(NSNotification *notification) {
     return self;
 }
 
+#ifdef DEBUG
+    #define NSLog(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#endif
+
 - (void)dealloc {
     [self stopLogging];
 }

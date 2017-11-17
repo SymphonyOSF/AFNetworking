@@ -456,6 +456,8 @@ static inline BOOL AFStateTransitionIsValid(AFOperationState fromState, AFOperat
     [self.lock unlock];
 }
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 - (void)operationDidStart {
     [self.lock lock];
     if (![self isCancelled]) {
@@ -476,6 +478,7 @@ static inline BOOL AFStateTransitionIsValid(AFOperationState fromState, AFOperat
         [[NSNotificationCenter defaultCenter] postNotificationName:AFNetworkingOperationDidStartNotification object:self];
     });
 }
+#pragma GCC diagnostic pop
 
 - (void)finish {
     [self.lock lock];

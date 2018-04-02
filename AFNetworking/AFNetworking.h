@@ -37,6 +37,7 @@
     #import "UIKit+AFNetworking.h"
 
 #import "AFNetworkActivityIndicatorManager.h"
+#import "AFNetworkActivityLogger.h"
 
 #import "UIActivityIndicatorView+AFNetworking.h"
 #import "UIAlertView+AFNetworking.h"

@@ -81,6 +81,16 @@
             location = "group:AFNetworking/AFURLResponseSerialization.m">
          </FileRef>
       </Group>
+      <Group
+         location = "container:"
+         name = "ActivityLogger">
+         <FileRef
+            location = "group:AFNetworking/AFNetworkActivityLogger.h">
+         </FileRef>
+         <FileRef
+            location = "group:AFNetworking/AFNetworkActivityLogger.m">
+         </FileRef>
+      </Group>
    </Group>
    <Group
       location = "group:UIKit+AFNetworking"

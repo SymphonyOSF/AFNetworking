@@ -84,4 +84,10 @@ EOS
     ss.public_header_files = 'UIKit+AFNetworking/*.h'
     ss.source_files = 'UIKit+AFNetworking'
   end
+
+  s.subspec 'ActivityLogger' do |ss|
+    ss.source_files = 'AFNetworking/AFNetworkActivityLogger.{h,m}'
+    ss.public_header_files = 'AFNetworking/AFNetworkActivityLogger.h'
+    ss.dependency 'AFNetworking/NSURLConnection'
+  end
 end
